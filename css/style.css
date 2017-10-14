@@ -58,10 +58,9 @@ html, body {
   width: 100%;
   background: white;
   z-index: 4;
-
-  
-
+  -webkit-backface-visibility: hidden;
 }
+
 .sliding-background {
   background: url("https://i.imgur.com/ht2Nfav.png") repeat-y;
   height: 1548px;
