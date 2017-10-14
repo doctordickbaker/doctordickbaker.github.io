@@ -43,7 +43,7 @@ html, body {
   position: absolute;
   bottom: 23%;
   left: 5%;
-  background: url('https://i.imgur.com/8ymPwYR.png');
+  background: url('https://i.imgur.com/VFSuaDK.png');
   background-size: 100%;
   z-index: 5;
     -webkit-animation:  car_bounce  .30s linear infinite;
@@ -68,6 +68,7 @@ html, body {
   width: 100%;
   -webkit-animation:  slide 1.2s linear infinite;
         animation:    slide 1.2s linear infinite;
+  -webkit-backface-visibility: hidden;
   
   
 }
