@@ -69,6 +69,8 @@ html, body {
   -webkit-animation:  slide 1.2s linear infinite;
         animation:    slide 1.2s linear infinite;
   -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+
   
   
 }
